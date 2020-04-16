@@ -299,7 +299,7 @@ class MainActivity : AppCompatActivity() {
             var speaker = Speaker()
             speaker.name = aux.getString("name")
             speaker.jobtitle = aux.getString("jobtitle")
-            speaker.workspace = aux.getString("workspace")
+            speaker.workspace = aux.getString("workplace")
             speaker.biography = aux.getString("biography")
             speaker.twitter = aux.getString("twitter")
             speaker.image = aux.getString("image")
